@@ -41,7 +41,7 @@ COPY support/application-roles.properties support/standalone.xml $BPMS_HOME/stan
 USER root
 
 # Fix permissions on support files
-RUN chown -R 1000:1000 $BPMS_HOME/standalone/configuration/standalone.xml $BPMS_HOME/standalone/deployments/business-central.war/WEB-INF/classes/userinfo.properties 
+RUN chown -R 1000:1000 $BPMS_HOME/bin/.niogit $BPMS_HOME/standalone/configuration/standalone.xml $BPMS_HOME/standalone/deployments/business-central.war/WEB-INF/classes/userinfo.properties 
 
 # Run as JBoss 
 USER 1000
