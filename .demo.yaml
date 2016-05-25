@@ -1,0 +1,11 @@
+id: rhcs-rewards
+title: Cloud JBoss BPM Suite Rewards Demo
+github_repo_url: https://github.com/redhatdemocentral/rhcs-rewards-demo
+technologies:
+  - Red Hat CDK
+  - JBoss BPM Suite
+  - OpenShift Enterprise  
+summary: Project to automate the installation of JBoss BPM Suite Rewards demo using the Red Hat Container Development Kit (CDK) for application development activities on OpenShift.
+level: Beginner
+product: rhcs
+author: Andrew Block, Eric D. Schabell
