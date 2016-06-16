@@ -6,7 +6,7 @@ set DEMO=Cloud JBoss BPM Rewards Demo
 set AUTHORS=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:redhatdemocentral/rhcs-rewards-demo.git
 set SRC_DIR=%PROJECT_HOME%installs
-set BPMS=jboss-bpmsuite-installer-6.2.0.BZ-1299002.jar
+set BPMS=jboss-bpmsuite-installer-6.2.0.GA-redhat-1-bz-1334704.jar
 set EAP=jboss-eap-6.4.0-installer.jar
 set EAP_PATCH=jboss-eap-6.4.4-patch.zip
 

@@ -63,6 +63,8 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
+- v1.1 - JBoss BPM Suite 6.2.0.GA-redhat-1-bz-1334704 on JBoss EAP 6.4.4 with rewards demo installed on Red Hat CDK using OpenShift Enterprise image.
+
 - v1.0 - JBoss BPM Suite 6.2.0-BZ-1299002 on JBoss EAP 6.4.4 with rewards demo installed on Red Hat CDK using OpenShift Enterprise image.
 
 ![Cloud Pod](https://raw.githubusercontent.com/redhatdemocentral/rhcs-rewards-demo/master/docs/demo-images/rhcs-rewards-pod.png)
