@@ -75,9 +75,9 @@ fi
 
 echo "OpenShift commandline tooling is installed..."
 echo 
-echo "Loging into OSE..."
+echo "Loging into OSE as openshift-dev user..."
 echo
-oc login 10.1.2.2:8443 --password=admin --username=admin
+oc login 10.1.2.2:8443 --password=openshift-dev --username=devel
 
 if [ $? -ne 0 ]; then
 	echo
