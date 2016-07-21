@@ -6,6 +6,8 @@ set DEMO=Cloud JBoss BPM Rewards Demo
 set AUTHORS=Andrew Block, Eric D. Schabell
 set PROJECT=git@github.com:redhatdemocentral/rhcs-rewards-demo.git
 set SRC_DIR=%PROJECT_HOME%installs
+set OPENSHIFT_USER=openshift-dev
+set OPENSHIFT_PWD=devel
 set BPMS=jboss-bpmsuite-installer-6.2.0.GA-redhat-1-bz-1334704.jar
 set EAP=jboss-eap-6.4.0-installer.jar
 set EAP_PATCH=jboss-eap-6.4.4-patch.zip
@@ -83,7 +85,7 @@ echo OpenShift commandline tooling is installed...
 echo.
 echo Loging into OSE as openshift-dev user...
 echo.
-call oc login 10.1.2.2:8443 --password=openshift-dev --username=devel
+call oc login 10.1.2.2:8443 --password="%OPENSHIFT_PWD%" --username="%OPENSHIFT_USER%"
 
 if not "%ERRORLEVEL%" == "0" (
   echo.

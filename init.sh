@@ -3,6 +3,8 @@ DEMO="Cloud JBoss BPM Suite Rewards Demo"
 AUTHORS="Andrew Block, Eric D. Schabell"
 PROJECT="git@github.com:redhatdemocentral/rhcs-rewards-demo.git"
 SRC_DIR=./installs
+OPENSHIFT_USER=openshift-dev
+OPENSHIFT_PWD=devel
 BPMS=jboss-bpmsuite-installer-6.2.0.GA-redhat-1-bz-1334704.jar
 EAP=jboss-eap-6.4.0-installer.jar
 EAP_PATCH=jboss-eap-6.4.4-patch.zip
@@ -75,9 +77,9 @@ fi
 
 echo "OpenShift commandline tooling is installed..."
 echo 
-echo "Loging into OSE as openshift-dev user..."
+echo "Logging in to OSE as $OPENSHIFT_USER..."
 echo
-oc login 10.1.2.2:8443 --password=openshift-dev --username=devel
+oc login 10.1.2.2:8443 --password=$OPENSHIFT_PWD --username=$OPENSHIFT_USER
 
 if [ $? -ne 0 ]; then
 	echo
