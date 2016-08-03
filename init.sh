@@ -5,9 +5,9 @@ PROJECT="git@github.com:redhatdemocentral/rhcs-rewards-demo.git"
 SRC_DIR=./installs
 OPENSHIFT_USER=openshift-dev
 OPENSHIFT_PWD=devel
-BPMS=jboss-bpmsuite-installer-6.2.0.GA-redhat-1-bz-1334704.jar
+BPMS=jboss-bpmsuite-6.3.0.GA-installer.jar
 EAP=jboss-eap-6.4.0-installer.jar
-EAP_PATCH=jboss-eap-6.4.4-patch.zip
+EAP_PATCH=jboss-eap-6.4.7-patch.zip
 
 # wipe screen.
 clear 
@@ -95,19 +95,22 @@ oc new-project rhcs-rewards-demo
 echo
 echo "Setting up a new build..."
 echo
-oc new-build "jbossdemocentral/developer" --name=rhcs-rewards-demo --binary=true
+oc new-build "jbossdemocentral/developer" --name=rhcs-rewards-demo --binary=true 
 			
 if [ $? -ne 0 ]; then
 	echo
 	echo Error occurred during 'oc new-build' command!
 	exit
 fi
-												
+
+# need to wait a bit for new build to finish with developer image.
+sleep 3 
+
 echo
 echo "Importing developer image..."
 echo
 oc import-image developer
-						
+
 if [ $? -ne 0 ]; then
 	echo
 	echo Error occurred during 'oc import-image' command!
@@ -117,7 +120,7 @@ fi
 echo
 echo "Starting a build, this takes some time to upload all of the product sources for build..."
 echo
-oc start-build rhcs-rewards-demo --from-dir=. --follow=true
+oc start-build rhcs-rewards-demo --from-dir=. --follow=true --wait=true
 									
 if [ $? -ne 0 ]; then
 	echo
