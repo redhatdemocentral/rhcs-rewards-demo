@@ -63,7 +63,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.3 - JBoss BPM Suite 6.3.0.GA and JBoss EAP 6.4.7 with rewards demo installed on Red Hat CDK 2.1.
+- v1.3 - JBoss BPM Suite 6.3.0.GA and JBoss EAP 6.4.7 with rewards demo installed on Red Hat CDK.
 
 - v1.2 - JBoss BPM Suite 6.2.0.GA-redhat-1-bz-1334704 on JBoss EAP 6.4.4 with rewards demo installed on Red Hat CDK 2.1.
 
