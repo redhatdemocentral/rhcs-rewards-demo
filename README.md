@@ -67,6 +67,8 @@ longer than 2 minutes without being started (claimed).
 
 Supporting Articles
 -------------------
+- [App Dev in the Cloud - HR Employee Rewards Application on OpenShift](http://www.schabell.org/2017/01/appdev-in-cloud-hr-employee-rewards-app-openshift.html)
+
 - [How to put the JBoss HR Employee Rewards project into the Cloud](http://www.schabell.org/2016/05/howto-put-jboss-hr-employee-rewards-into-cloud.html)
 
 - [Build rewards demo project with online workshop.](http://bpmworkshop-onthe.rhcloud.com)
