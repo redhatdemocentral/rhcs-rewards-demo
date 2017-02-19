@@ -109,6 +109,11 @@ if not "%ERRORLEVEL%" == "0" (
 )
 
 echo.
+echo Creating a new project...
+echo.
+call oc new-project app-dev-on-cloud-suite
+
+echo.
 echo Setting up a new build...
 echo.
 call oc new-build "jbossdemocentral/developer" --name=rhcs-rewards-demo --binary=true
