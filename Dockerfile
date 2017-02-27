@@ -54,7 +54,7 @@ RUN chown -R 1000:root $BPMS_HOME \
 USER 1000
 
 # Expose Ports
-EXPOSE 9990 9999 8080
+EXPOSE 9990 9999 8080 9418 8001
 
 # Run BPMS
 ENTRYPOINT ["/opt/jboss/start.sh"]
