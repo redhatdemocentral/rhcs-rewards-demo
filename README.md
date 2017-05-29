@@ -93,7 +93,6 @@ To clone a repository in the running container, the following actions would need
    ```
 
 
-
 Supporting Articles
 -------------------
 - [App Dev in the Cloud - HR Employee Rewards Application on OpenShift](http://www.schabell.org/2017/01/appdev-in-cloud-hr-employee-rewards-app-openshift.html)
