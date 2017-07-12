@@ -32,7 +32,7 @@ Log in to JBoss Rewards to start exploring an online employee rewards applicatio
   - OCP example:
     [http://rhcs-rewards-demo.192.168.99.100.xip.io/business-central](http://rhcs-rewards-demo.192.168.99.100.xip.io/business-central) ( u:erics / p:bpmsuite1! )
 
-5. Want to build the Rewards demo from scratch? Try this hands-on <a href="https://bpmworkshop.github.io/#/5" target="_blank">online workshop</a>.
+5. Want to build the Rewards demo from scratch? Try this hands-on <a href="https://bpmworkshop.github.io/lab11.html" target="_blank">online workshop</a>.
 
 
 Note before running demo:
