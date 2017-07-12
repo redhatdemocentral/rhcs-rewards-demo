@@ -32,6 +32,8 @@ Log in to JBoss Rewards to start exploring an online employee rewards applicatio
   - OCP example:
     [http://rhcs-rewards-demo.192.168.99.100.xip.io/business-central](http://rhcs-rewards-demo.192.168.99.100.xip.io/business-central) ( u:erics / p:bpmsuite1! )
 
+5. Want to build the Rewards demo from scratch? Try this hands-on <a href="https://bpmworkshop.github.io/#/5" target="_blank">online workshop</a>.
+
 
 Note before running demo:
 -------------------------
@@ -105,6 +107,8 @@ Supporting Articles
 Released versions
 -----------------
 See the tagged releases for the following versions of the product:
+
+- v1.6 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with rewards demo installed on any given OpenShift installation and loading mulitple projects.
 
 - v1.5 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with rewards demo installed on any given OpenShift installation and port forwarding for git repo access configured.
 
