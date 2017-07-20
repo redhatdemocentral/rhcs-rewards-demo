@@ -97,6 +97,8 @@ To clone a repository in the running container, the following actions would need
 
 Supporting Articles
 -------------------
+- [How to Optimize Existing IT by Modernizing HR Processes](http://www.schabell.org/2017/07/how-to-optimize-existing-it-modernizing-hr-processes.html)
+
 - [App Dev in the Cloud - HR Employee Rewards Application on OpenShift](http://www.schabell.org/2017/01/appdev-in-cloud-hr-employee-rewards-app-openshift.html)
 
 - [How to put the JBoss HR Employee Rewards project into the Cloud](http://www.schabell.org/2016/05/howto-put-jboss-hr-employee-rewards-into-cloud.html)
