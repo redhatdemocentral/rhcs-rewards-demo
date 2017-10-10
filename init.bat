@@ -174,7 +174,7 @@ if not "%ERRORLEVEL%" == "0" (
 echo.
 echo Creating an externally facing route by exposing a service...
 echo.
-call oc expose service %OCP_APP% --port=8080 --hostname=%OCP_APP%.%HOST_IP%.xip.io
+call oc expose service %OCP_APP% --port=8080
 
 if not "%ERRORLEVEL%" == "0" (
   echo.
@@ -188,7 +188,7 @@ echo ====================================================================
 echo =                                                                  =
 echo =  Login to start exploring the Rewards project:                   =
 echo =                                                                  =
-echo =  http://%OCP_APP%.%HOST_IP%.xip.io/business-central       =
+echo =  http://%OCP_APP%-%OCP_PRJ%.%HOST_IP%.nip.io/business-central  =
 echo =                                                                  =
 echo =  [ u:erics / p:bpmsuite1! ]                                      =
 echo =                                                                  =
