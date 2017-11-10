@@ -119,10 +119,6 @@ See the tagged releases for the following versions of the product:
 
 ![Cloud Build](https://raw.githubusercontent.com/redhatdemocentral/rhcs-rewards-demo/master/docs/demo-images/rhcs-rewards-build.png)
 
-![Process](https://raw.githubusercontent.com/redhatdemocentral/rhcs-rewards-demo/master/docs/demo-images/rewards-process.png)
-
-![Process & Task Dashboard](https://raw.githubusercontent.com/redhatdemocentral/rhcs-rewards-demo/master/docs/demo-images/mock-bpm-data.png)
-
 [![Video Rewards Run](https://raw.githubusercontent.com/eschabell/erics-images/master/brms_bpms_workshop/image309.png)](http://vimeo.com/ericschabell/bpms-hr-employee-rewards-demo-run)
 
 ![Cloud Suite](https://raw.githubusercontent.com/redhatdemocentral/rhcs-rewards-demo/master/docs/demo-images/rhcs-arch.png)
