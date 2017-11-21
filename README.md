@@ -101,7 +101,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.8 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with rewards demo installed and support for Red Hat CDK.
+- v1.8 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with rewards demo installed and available on CDK with Minishift.
 
 - v1.7 - JBoss BPM Suite 6.4.0 and JBoss EAP 7.0.0 with OpenShift genereated routes and service URLs.
 
