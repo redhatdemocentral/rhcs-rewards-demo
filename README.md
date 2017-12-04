@@ -38,13 +38,30 @@ Log in to JBoss Rewards to start exploring an online employee rewards applicatio
 
 Note before running demo:
 -------------------------
+
+Should your local network DNS not handle the resolution of the above address, giving you page not found errors, you can apply the
+following to your local hosts file:
+
+```
+$ sudo vi /etc/hosts
+
+# add host for OCP demo resulution
+192.168.99.100   rhcs-rewards-demo-appdev-in-cloud.192.168.99.100.nip.io 
+```
+
+-----
+
 This project can be installed on any OpenShift platform, such as OpenShift Container Platform.
 It's possible to install it on any available installation by pointing this installer to an OpenShift IP address:
 ```
   $ ./init.sh IP
 ```
 
+-----
+
 If for any reason the installation breaks or you want a new installation, just remove the project entry in the OpenShift console and re-run the installation.
+
+-----
 
 This project is pre-loaded into the JBoss BPM Suite, after starting it you can login,
 examine the rule, process, and data model from within the various product components.
@@ -56,6 +73,8 @@ task got sick and failed to complete the claimed task.
 
 Optional: A task notification has also been setup to alert the members of the group responsible if a task sits 
 longer than 2 minutes without being started (claimed). 
+
+-----
 
 To clone a repository in the running container, the following actions would need to occur from a developer's machine.
 
