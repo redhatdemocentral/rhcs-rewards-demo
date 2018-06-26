@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/redhatdemocentral/rhcs-rewards-demo).
+
+
 App Dev Cloud with JBoss Rewards Demo
 =====================================
 This demo is to install JBoss BPM Suite Rewards Demo in the Cloud based on leveraging the OpenShift Container Platform (OCP)
